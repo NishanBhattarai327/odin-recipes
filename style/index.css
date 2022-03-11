@@ -30,14 +30,15 @@ ul {
 ul > li {
 	width: 30%;
 	display: inline-block;
+	margin: 5px;
 }
 
 ul > li > a {
 	text-decoration: none;
 	background: #abcdef;
 	display: block;
-	margin: 5px;
-	padding: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 ul > li > a:hover {
