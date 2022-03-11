@@ -1,0 +1,48 @@
+body {
+	background: #F6FFF0;
+	color: #020401;
+	font-family: "Lucida Console", "Courier New", monospace;
+	text-align: center;
+}
+
+ol, ul {
+	list-style-position: inside;
+	text-align: left;
+}
+
+ul {
+	margin-bottom: 50px;
+	list-style-type: circle;
+}
+ol {
+	list-style-type: upper-roman;
+}
+
+ol li, ul li{
+	width: 90%;
+	background: #abcdef90;
+	border-radius: 5px;
+	margin: 5px;
+	padding: 5px;
+}
+
+h1 {
+	text-decoration: underline;
+	font-size: 40px;
+	font-family: monospace;, sans-serif;
+	font-weight: bolder;
+}
+
+p {
+	width: 90%;
+	margin: auto;
+}
+
+h2 {
+	text-decoration-line: underline;
+	text-decoration-style: dashed;
+}
+
+h3 {
+	text-decoration: underline;
+}
